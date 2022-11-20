@@ -29,6 +29,13 @@ main {
     background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Mountains-1412683.svg/1280px-Mountains-1412683.svg.png) no-repeat center center;
     background-size: cover;
 }
+
+.heading-section h4 em {
+  color: #fff;
+  font-style: normal;
+  text-decoration: underline;
+}
+
 .form_class {
     width: 500px;
     padding: 40px;
