@@ -1,4 +1,5 @@
 <body>
+    <script src="navigate.js"></script>
     <link rel="stylesheet" href="styles.css">
     <header>
         <h1>Textbook-Plus</h1>
@@ -10,7 +11,7 @@
                 <input class="field_class" name="login_txt" type="text" placeholder="example@outlook.com" autofocus>
                 <label>Password:</label>
                 <input id="pass" class="field_class" name="password_txt" type="password" placeholder="password">
-                <a href="dashboard.html" class="submit_class">Enter</a>
+                <button class="submit_class" type="submit" form="login_form" onclick="return gotoDashboard()">Enter</button>
                
             </div>
             <div class="info_div">
