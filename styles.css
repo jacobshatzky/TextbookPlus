@@ -30,7 +30,7 @@ main {
     background-size: cover;
 }
 
-.heading-section h4 em {
+.h1 em {
   color: #fff;
   font-style: normal;
   text-decoration: underline;
