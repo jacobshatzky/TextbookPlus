@@ -1,10 +1,11 @@
 <body>
+    <script src="navigate.js"></script>
     <link rel="stylesheet" href="styles.css">
     <header>
         <h1>Register</h1>
     </header>
     <main>
-        <form id="login_form" class="form_class" action="login/login-access.php" method="post">
+        <form id="login_form" class="form_class" action="index.html" method="post">
             <div class="form_div">
                 <label>First Name:</label>
                 <input class="field_class" name="first_name" type="text" placeholder="John" autofocus>
@@ -14,9 +15,7 @@
                 <input class="field_class" name="email" type="email" placeholder="johnsmith@gmail.com" autofocus>
                 <label>Phone:</label>
                 <input class="field_class" name="Phone" type="text" placeholder="123-456-789" autofocus>
-                <a href="index.html">
-                    <button class="submit_class">Register</button>
-                </a>
+                <button class="submit_class" onclick="gotoIndex()">Entrar</button>
                
             </div>
 
